@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "step-cloner-test",
+  "version": "1.0.0",
+  "name": "Step Cloner Tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "com.example.stepcloner.test.StepClonerGameTest"
+    ]
+  },
+  "depends": {
+    "step_cloner": "*"
+  }
+}

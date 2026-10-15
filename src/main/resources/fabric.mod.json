@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "step_cloner",
+  "version": "${version}",
+  "name": "Step Cloner",
+  "description": "走路时把脚下踩到的方块复制一份放进背包——方块本身不会被挖掉。同一个格子只触发一次。",
+  "authors": [
+    "forever3371"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.stepcloner.StepCloner"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
